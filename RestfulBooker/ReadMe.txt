@@ -1,4 +1,5 @@
 ﻿Based on: https://restful-booker.herokuapp.com/apidoc/index.html
+You can run the tests via the test explorer.
 
 I made three assumptions here:
 1. The entire request body is required and the backend service tests the entire request body against a schema
