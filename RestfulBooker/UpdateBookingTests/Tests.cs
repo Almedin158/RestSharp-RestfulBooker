@@ -3,18 +3,11 @@ using Configuration.APIRequest;
 using Configuration.Client;
 using Newtonsoft.Json;
 using NUnit.Framework;
-using NUnit.Framework.Constraints;
 using RestfulBooker.CreateBookingTests;
-using RestfulBooker.GetBookingIdsTests;
 using RestfulBooker.GetBookingTests;
 using RestfulBooker.LoginTests;
 using RestSharp;
 using RestSharp.Serializers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RestfulBooker.UpdateBookingTests
 {

@@ -3,14 +3,8 @@ using Configuration.Client;
 using Configuration;
 using NUnit.Framework;
 using RestfulBooker.GetBookingIdsTests;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using RestSharp;
 using RestSharp.Serializers;
-using Newtonsoft.Json;
 using RestfulBooker.CreateBookingTests;
 
 namespace RestfulBooker.GetBookingTests

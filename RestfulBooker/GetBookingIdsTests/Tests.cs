@@ -1,15 +1,9 @@
 ﻿using Configuration;
 using Configuration.APIRequest;
 using Configuration.Client;
-using Newtonsoft.Json;
 using NUnit.Framework;
 using RestfulBooker.CreateBookingTests;
 using RestSharp;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RestfulBooker.GetBookingIdsTests
 {

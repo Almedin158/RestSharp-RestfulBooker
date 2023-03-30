@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Almedin\\Desktop\\RestSharp-RestfulBooker\\RestfulBooker\\RestfulBooker.csproj": {}
+    "C:\\Users\\AlmedinAlikadic\\Desktop\\RestSharp-RestfulBooker\\RestfulBooker\\RestfulBooker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Almedin\\Desktop\\RestSharp-RestfulBooker\\Configuration\\Configuration.csproj": {
+    "C:\\Users\\AlmedinAlikadic\\Desktop\\RestSharp-RestfulBooker\\Configuration\\Configuration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Almedin\\Desktop\\RestSharp-RestfulBooker\\Configuration\\Configuration.csproj",
+        "projectUniqueName": "C:\\Users\\AlmedinAlikadic\\Desktop\\RestSharp-RestfulBooker\\Configuration\\Configuration.csproj",
         "projectName": "Configuration",
-        "projectPath": "C:\\Users\\Almedin\\Desktop\\RestSharp-RestfulBooker\\Configuration\\Configuration.csproj",
-        "packagesPath": "C:\\Users\\Almedin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Almedin\\Desktop\\RestSharp-RestfulBooker\\Configuration\\obj\\",
+        "projectPath": "C:\\Users\\AlmedinAlikadic\\Desktop\\RestSharp-RestfulBooker\\Configuration\\Configuration.csproj",
+        "packagesPath": "C:\\Users\\AlmedinAlikadic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AlmedinAlikadic\\Desktop\\RestSharp-RestfulBooker\\Configuration\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Almedin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AlmedinAlikadic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -73,21 +73,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Almedin\\Desktop\\RestSharp-RestfulBooker\\RestfulBooker\\RestfulBooker.csproj": {
+    "C:\\Users\\AlmedinAlikadic\\Desktop\\RestSharp-RestfulBooker\\RestfulBooker\\RestfulBooker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Almedin\\Desktop\\RestSharp-RestfulBooker\\RestfulBooker\\RestfulBooker.csproj",
+        "projectUniqueName": "C:\\Users\\AlmedinAlikadic\\Desktop\\RestSharp-RestfulBooker\\RestfulBooker\\RestfulBooker.csproj",
         "projectName": "RestfulBooker",
-        "projectPath": "C:\\Users\\Almedin\\Desktop\\RestSharp-RestfulBooker\\RestfulBooker\\RestfulBooker.csproj",
-        "packagesPath": "C:\\Users\\Almedin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Almedin\\Desktop\\RestSharp-RestfulBooker\\RestfulBooker\\obj\\",
+        "projectPath": "C:\\Users\\AlmedinAlikadic\\Desktop\\RestSharp-RestfulBooker\\RestfulBooker\\RestfulBooker.csproj",
+        "packagesPath": "C:\\Users\\AlmedinAlikadic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AlmedinAlikadic\\Desktop\\RestSharp-RestfulBooker\\RestfulBooker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Almedin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AlmedinAlikadic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -101,8 +101,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Almedin\\Desktop\\RestSharp-RestfulBooker\\Configuration\\Configuration.csproj": {
-                "projectPath": "C:\\Users\\Almedin\\Desktop\\RestSharp-RestfulBooker\\Configuration\\Configuration.csproj"
+              "C:\\Users\\AlmedinAlikadic\\Desktop\\RestSharp-RestfulBooker\\Configuration\\Configuration.csproj": {
+                "projectPath": "C:\\Users\\AlmedinAlikadic\\Desktop\\RestSharp-RestfulBooker\\Configuration\\Configuration.csproj"
               }
             }
           }
@@ -154,7 +154,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

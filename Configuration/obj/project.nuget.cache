@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Rsmwo1E/3lvw64sg4PqTUM07Jrhvg+hTjCu7eoPjkQSELg7K9zgY7OrkWMNvoZ/K6v5ZYGuCO/XipY3O8Wmcxw==",
+  "dgSpecHash": "ikAKrZeKfDbTGAFC/MFxv452g6pEu1zL7PPGVXyLPXMXLarJwZLO1AueU6kqwmMUHGL6O2uOC/sx6EJep32HDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Almedin\\Desktop\\RestSharp-RestfulBooker\\Configuration\\Configuration.csproj",
+  "projectFilePath": "C:\\Users\\AlmedinAlikadic\\Desktop\\RestSharp-RestfulBooker\\Configuration\\Configuration.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Almedin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Almedin\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\Almedin\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
-    "C:\\Users\\Almedin\\.nuget\\packages\\nunit.analyzers\\3.3.0\\nunit.analyzers.3.3.0.nupkg.sha512",
-    "C:\\Users\\Almedin\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
-    "C:\\Users\\Almedin\\.nuget\\packages\\restsharp\\108.0.2\\restsharp.108.0.2.nupkg.sha512"
+    "C:\\Users\\AlmedinAlikadic\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\AlmedinAlikadic\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\AlmedinAlikadic\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\AlmedinAlikadic\\.nuget\\packages\\nunit.analyzers\\3.3.0\\nunit.analyzers.3.3.0.nupkg.sha512",
+    "C:\\Users\\AlmedinAlikadic\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
+    "C:\\Users\\AlmedinAlikadic\\.nuget\\packages\\restsharp\\108.0.2\\restsharp.108.0.2.nupkg.sha512"
   ],
   "logs": []
 }
