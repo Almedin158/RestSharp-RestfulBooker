@@ -49,6 +49,7 @@ namespace RestfulBooker.PartialUpdateBookingTests
             var response = _client.GetClient()
                 .Execute(request);
 
+            CurlConverter.ConvertToCurl(request);
 
             Assert.AreEqual(401, (int)response.StatusCode);
         }

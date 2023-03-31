@@ -1,6 +1,8 @@
 ﻿using Configuration;
 using Configuration.APIRequest;
 using Configuration.Client;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
 using NUnit.Framework;
 using RestfulBooker.CreateBookingTests;
 using RestSharp;
@@ -55,8 +57,30 @@ namespace RestfulBooker.GetBookingIdsTests
                 .WithUrl(_url)
                 .WithQueryParameters(queryParameter)
                 .Build();
+            //var getBookingIdsResponse = _client.GetClient()
+            //    .Execute<List<GetBookingIdsResponse>>(getBookingIdsRequest);
             var getBookingIdsResponse = _client.GetClient()
                 .Execute<List<GetBookingIdsResponse>>(getBookingIdsRequest);
+
+            dynamic jsonObj;
+            JToken type = JToken.Parse(getBookingIdsResponse.Content);
+
+            if (type.Type == JTokenType.Array)
+            {
+                jsonObj = JsonConvert.DeserializeObject<JArray>(getBookingIdsResponse.Content);
+            }
+            else
+            {
+                jsonObj = JsonConvert.DeserializeObject<JObject>(getBookingIdsResponse.Content);
+            }
+
+            var a = jsonObj[0].bookingid;
+
+
+
+
+            //dynamic jsonObj = JsonConvert.DeserializeObject<JArray>(getBookingIdsResponse.Content);
+            //var a = jsonObj[0].bookingid;
 
 
             var found = false;
@@ -68,6 +92,7 @@ namespace RestfulBooker.GetBookingIdsTests
                 }
             }
 
+            CurlConverter.ConvertToCurl(getBookingIdsRequest);
 
             Assert.Multiple(() =>
             {

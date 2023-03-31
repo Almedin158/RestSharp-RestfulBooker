@@ -53,13 +53,14 @@ namespace RestfulBooker.UpdateBookingTests
 
             var request = new PutRequestBuilder()
                 .WithUrl(_url)
-                .WithObjectBody(objectBody)
+                .WithJsonBody(JsonConvert.SerializeObject(objectBody))
                 .WithHeaders(headers)
                 .WithUrlSegments(urlSegments)
                 .Build();
             var response = _client.GetClient()
                 .Execute<GetBookingResponse>(request);
 
+            CurlConverter.ConvertToCurl(request);
 
             List<int> statusCodes = new List<int> { 200, 202, 204 };
             Assert.Multiple(() =>

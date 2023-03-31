@@ -64,6 +64,7 @@ namespace RestfulBooker.CreateBookingTests
                 200,201
             };
 
+            CurlConverter.ConvertToCurl(request);
 
             Assert.Multiple(() =>
             {
